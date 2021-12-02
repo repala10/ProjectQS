@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+  <suite name=" regression"   parallel="classes">
+
+  <test  name=" parallel senerios">
+    <classes>
+      <class name="com.sabbproject.examples.Annotations"/>
+      <class name="com.sabbproject.examples.Dataprovider"/>
+      <class name="com.sabbproject.examples.Assersions"/>
+      <class name="com.sabbproject.examples.Grouping"/>
+      <class name="com.sabbproject.examples.Parallel"/>
+      <class name="com.sabbproject.examples.Assetions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
